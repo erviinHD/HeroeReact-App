@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    color: #65289e;
+    font-weight: bold;
+}
+
+.focus\:ring:focus{
+    box-shadow: none !important;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSerch:focus {
+    outline: 0px solid #ffff;
+    border: 0px solid #fff;
+}
